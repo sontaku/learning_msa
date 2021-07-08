@@ -1,4 +1,4 @@
-package com.msa.advertising._advertising_api;
+package com.msa.review;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

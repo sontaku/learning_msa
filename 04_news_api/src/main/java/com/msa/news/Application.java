@@ -1,4 +1,4 @@
-package com.msa.user._user_api;
+package com.msa.news;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.msa.news._news_api;
+package com.msa.advertising;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
