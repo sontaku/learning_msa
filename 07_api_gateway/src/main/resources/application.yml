@@ -20,14 +20,10 @@ spring:
 #            preLogger: true
 #            postLogger: true
 
-
-
-
-
-
       routes:
         - id: user
-          uri: http://localhost:8000/
+#          uri: http://localhost:8000/
+          uri: lb://MSA-USER-SERVICE
           predicates:
             - Path=/user/**
           filters:
@@ -36,8 +32,10 @@ spring:
                 baseMessage: Spring Cloud Gateway UserFilter
                 preLogger: true
                 postLogger: true
+
         - id: news
-          uri: http://localhost:8001/
+#          uri: http://localhost:8001/
+          uri: lb://MSA-NEWS-SERVICE
           predicates:
             - Path=/news/**
           filters:
@@ -46,8 +44,10 @@ spring:
                 baseMessage: Spring Cloud Gateway NewsFilter
                 preLogger: true
                 postLogger: true
+
         - id: review
-          uri: http://localhost:8002/
+#          uri: http://localhost:8002/
+          uri: lb://MSA-REVIEW-SERVICE
           predicates:
             - Path=/review/**
           filters:
@@ -56,8 +56,10 @@ spring:
                 baseMessage: Spring Cloud Gateway ReviewFilter
                 preLogger: true
                 postLogger: true
+
         - id: advertising
-          uri: http://localhost:8003/
+#          uri: http://localhost:8003/
+          uri: lb://MSA-ADVERTISING-SERVICE
           predicates:
             - Path=/advertising/**
           filters:
