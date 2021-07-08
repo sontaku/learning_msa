@@ -91,29 +91,29 @@ zuul 은 최신버전에서 지원하지 않으므로 ```Spring Cloud Gateway```
 
 ## 테스트 서비스 실행 가이드
 
-1. **02_eureka_server** 실행
+1. **02_eureka_server** 프로젝트 실행
 
    http://localhost:8761/ 를 통해 확인
 
 2. api service 실행
 
-   - **03_user_api**
+   - **03_user_api** 프로젝트 실행
 
      http://localhost:8000/user/info
 
-   - **04_news_api**
+   - **04_news_api** 프로젝트 실행
 
      http://localhost:8001/news/info
 
-   - **05_review_api**
+   - **05_review_api** 프로젝트 실행
 
      http://localhost:8002/review/info
 
-   - **06_advertising_api**
+   - **06_advertising_api** 프로젝트 실행
 
      http://localhost:8003/advertising/info
 
-3. **07_api_gateway** 실행
+3. **07_api_gateway** 프로젝트 실행
 
    - 각각의 api service는 gateway 서버를 통해 호출 가능
    - http://localhost:8004/user/info
@@ -130,3 +130,4 @@ zuul 은 최신버전에서 지원하지 않으므로 ```Spring Cloud Gateway```
 - https://taes-k.github.io/2019/06/16/spring-msa-3/
 - https://github.com/taes-k/spring-example/tree/master/spring-msa/msa-web-site
 - https://wonit.tistory.com/497
+
