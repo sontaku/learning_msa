@@ -1,4 +1,4 @@
-package com.msa.gateway._api_gateway;
+package com.msa.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
