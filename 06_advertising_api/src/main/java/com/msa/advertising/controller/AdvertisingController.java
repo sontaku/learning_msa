@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AdvertisingController {
 
-  @RequestMapping("/")
+  @RequestMapping("/advertising/info")
   public String getAdvertising() {
 
     return "advertising Information";

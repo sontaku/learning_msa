@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ReviewController {
 
-  @RequestMapping("/")
+  @RequestMapping("/review/info")
   public String getReview() {
 
     return "review Information";
