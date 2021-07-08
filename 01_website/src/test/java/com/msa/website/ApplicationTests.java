@@ -1,4 +1,4 @@
-package com.example._website;
+package com.msa.website;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
